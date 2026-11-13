@@ -1,65 +1,93 @@
-# Saga template
+# My experience with ElfHosted
 
-A Saga is your own written account of running apps on ElfHosted. You draft it with Sam, ElfHosted's assistant, and publish it on your own GitHub Pages site. Honest, accurate Sagas from qualifying accounts earn hosting credit, whether they're positive or critical: see the [guide](https://docs.elfhosted.com/how-to/publish-a-saga/#what-you-earn). This template turns the files from your ElfBot Saga export into a clean, readable site.
+_I wrote this for [ElfHosted](https://elfhosted.com/)'s Saga programme, which offers hosting credit for an honest account. Sam, ElfHosted's assistant, asked the questions in bold and supplied any figures from my monthly reviews. My opinions are my own, and any credit does not depend on a positive review._
 
-[![Watch: how to publish your Saga on GitHub Pages (2 minutes)](https://img.youtube.com/vi/gjp1zIcNCdI/maxresdefault.jpg)](https://youtu.be/gjp1zIcNCdI)
+Saga ID: SAGA-5SMQCZ3C
 
-Watch it done start to finish in two minutes, or read the [guide in the ElfHosted docs](https://docs.elfhosted.com/how-to/publish-a-saga/).
+## Why ElfHosted instead of self-hosting or another host?
 
-## Set it up
+Before ElfHosted I was doing everything myself, but now I've had so much taken off my plate by using elfhosted.
 
-ElfBot's Saga page walks you through this, with links filled in for your account.
+**How much time did your old setup take each month?**
 
-1. In ElfBot, check your Saga and choose **Download my Saga**. You get up to three files: `index.md`, and `availability.svg` and `og.png` when your Saga has a chart and a share picture.
-2. Click **Use this template** at the top of this page, then **Create a new repository**. Make it public.
-3. In your new repository, choose **Add file**, then **Upload files**. Click **choose your files**, open your Downloads folder and select the files together (hold Cmd on a Mac or Ctrl on Windows as you click), or drag them onto the page. Choose **Commit changes**. Your `index.md` replaces the sample Saga, and the sample chapter drops out of the list. If your browser added a number to a name because you downloaded it before, such as `index (1).md`, use the newest copy and rename it back to exactly `index.md`, `availability.svg` or `og.png` first.
-4. Go to the **Settings** tab at the top, then **Pages** in the menu on the left. Under **Build and deploy**, choose **Deploy from a branch**, pick the `main` branch and the `/ (root)` folder, then save. Your site appears at `https://USERNAME.github.io/REPO` within a minute or two.
-5. Back in ElfBot, paste that address into **Send us your link**. ElfBot checks the page for your Saga ID and the note, then sends it to ElfHosted to confirm your reward.
+About 30 minutes of faffing about each day.
 
-## Choose a look
+**What did you use before ElfHosted?**
 
-Open `index.md` and set two lines near the top:
+Proxmox/ docked.
 
-```
-style: long-read
-palette: forest
-```
+## Is ElfHosted what I expected?
 
-- `style` is `long-read` (an essay), `uptime-log` (a log of short entries with the chart up front) or `at-a-glance` (cards in a grid).
-- `palette` is `forest`, `dusk`, `ember`, `tide` or `graphite`. Each one has a light and a dark version that follow the reader's device.
+I expected a pretty hands off approach with minimal effort to get things off the ground. I am pleased to say that my expectations have been met and exceeded, with everything I wanted to work working perfectly.
 
-If a value is missing or misspelled, the site uses `long-read` and `forest`. Your `description` there is what search engines and link previews show.
+**How long did it take to get your first app running on ElfHosted?**
 
-## Add a chapter
+Minutes.
 
-Create a file in `chapters/` named for the year and month, such as `chapters/2027-01.md`:
+**Which part of getting started on ElfHosted took longest?**
 
-```
----
-layout: chapter
-title: "January 2027"
-date: 2027-01-20
----
+Paying for it.
 
-What happened this month.
-```
+## What can you run on ElfHosted?
 
-It shows up in the chapter list on your Saga page, newest first. To use a chart, put an `.svg` file in `assets/` and add `![A short description](assets/name.svg)` to the chapter.
+Aiostreams. I've been using it personally for years, but bit the bullet and started using elfhosted. I'm glad.
 
-## Keep it pseudonymous
+**How long have you run AIOStreams on ElfHosted?**
 
-- Set `author` near the top of `index.md` to a pseudonym, or remove the line to show no name.
-- Commits carry the git author name and email you used. Check them with `git config user.name` and `git config user.email`, and use a pseudonym and your GitHub noreply address if you want to stay private.
-- Your GitHub profile and username are visible too. Check them before you share the link. Your username is part of the default site address.
+On and off for about a year.
 
-## It's yours
+## What works well?
 
-The repository and the site belong to you. Edit the text freely, and delete the repository or turn off Pages at any time to take it down.
+Everything. There has been no lagging when using the debridge proxies. Errors of config were recognised pre-emptively and then fixed.
 
-## The disclosure stays
+**What do you no longer have to do since moving to ElfHosted?**
 
-Every page shows a short note that you wrote it for ElfHosted's Saga programme, which offers hosting credit for an honest account, and that your opinions are your own. It lives in `_layouts/default.html`, not in your content, so editing `index.md` doesn't change it. It has to stay in place for the reward, and so does the Saga ID at the foot of the page, which shows the site is yours.
+I don't need to tinker with my configs, vpns, service proxies or anything. It just works.
 
-## Licence
+## What goes wrong, and how does it get fixed?
 
-MIT. See `LICENSE`.
+Nothing has gone wrong, but pre-emptively things have been fixed by attaching to the MCP to my agents.
+
+**Did you, Sam or the ElfHosted team sort it out?**
+
+Sam helped me to do so.
+
+**How long did the fix take once you asked for help?**
+
+Minutes.
+
+## Has it changed my free time or family life?
+
+My family whinges less about it not working 🤣
+
+## How useful is Sam, ElfHosted's AI assistant?
+
+I asked Sam to help me set up the MCP for my agent.
+
+**Did Sam get it right the first time?**
+
+Yes. Issues were my own.
+
+## What is ElfHosted support like?
+
+I haven't needed them. All issues have been resolved through the first layers of support.
+
+## Is ElfHosted worth the money?
+
+I think so. For the raw cost I think it's probably too high, but the convenience of the services offsets this and makes it worth it.
+
+**Which plan or apps do you pay for?**
+
+Aiostreams with debridge.
+
+**What did AIOStreams on ElfHosted replace, and what did that cost you?**
+
+Personal hosting. Cost my time.
+
+## What are the downsides?
+
+I would explain the debridge warming process more clearly. By my interpretation at first, i believed it meant a single stream at a time, not a single warming for caching.
+
+## Who is ElfHosted for, and who should skip it?
+
+_[Your words here: Who, if anyone, would you suggest it to? Who would it not suit?]_
